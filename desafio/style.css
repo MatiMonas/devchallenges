@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+}
+
+:root {
+    --space-mono: 'Space Mono', monospace;
+    --inconsolata: 'Inconsolata', monospace;
+    --gray: #333333;
+    --gra2: #4f4f4f;
+  }
+
+
+.main-container{
+    margin: 24px;
+}
+
+.not-found{
+    font-family: var(--inconsolata);
+    font-size: 24px;
+    letter-spacing: -0.08em;
+    position: absolute;
+    left: 24px;
+    top: 20px;
+    
+
+}
+.contenido{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.contenedor-imagen{
+    
+    margin-top:64px;
+    margin-bottom: 60px
+}
+
+.contenedor-imagen img{
+    width: 100%;
+    max-width: 286px;
+}
+
+  #title{
+      font-family: var(--space-mono);
+      font-size: 44.8px;
+      color: var(--gray);
+      
+      letter-spacing: -0.032em;
+  }
+
+
+  .contenedor-texto p{
+      font-family: var(--space-mono);
+      font-size: 18px;
+      
+      margin-top: 30px;
+      letter-spacing: -0.035em;
+
+  }
+
+  #btn-back{
+   background-color: var(--gray);
+   color: white;
+   font-family: var(--space-mono);
+   font-size: 14px ;
+   padding: 1.5rem 3rem;
+   letter-spacing: -0.035;
+   font-size: bold;
+   border: none;   
+   margin-top: 66px;
+   margin-bottom: 155px;
+
+      
+  }
+
+
+@media(min-width:1450px){
+
+
+    .main-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+    .contenido{
+       
+        flex-direction: row;
+        gap: 118px;
+        
+    }
+
+    .not-found{
+      position: relative;
+      left: auto;
+      top: -102px;
+        
+        
+        
+    }
+
+    
+ 
+    .contenedor-imagen img{
+        max-width: 540px;
+        
+        
+    }
+
+    .contenedor-texto{
+        position: relative;
+        max-width: 586px;
+        margin:65px 0px 150px 0px;
+        
+
+    }
+
+    #title{
+        font-size: 64px
+
+    }
+
+    .contenedor-texto p{
+        font-size: 24px;
+        max-width: 381px;
+        color: #4f4f4f;
+        letter-spacing: -0.035em;
+        line-height: 36px;
+    }
+
+    #btn-back{
+        position: absolute;
+        font-size: 14px;
+        font: bold;
+        width: 216px;
+        height: 68px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1.5rem;
+        margin-left: 1px;
+        margin-top: 80px;
+    }
+
+
+}
