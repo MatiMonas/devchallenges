@@ -104,11 +104,13 @@
         
     }
 
-    
+    .contenedor-imagen{
+        
+    }
  
     .contenedor-imagen img{
+        width: 100%;
         max-width: 540px;
-        
         
     }
 
