@@ -96,7 +96,7 @@
 }
 
 
-@media(min-width:1450px){
+@media(min-width:1250px){
 
 
     .main-container{
@@ -115,7 +115,7 @@
     .not-found{
       position: relative;
       left: auto;
-      top: -102px;
+      top: -159px;
         
         
         
