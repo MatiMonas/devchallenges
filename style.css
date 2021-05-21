@@ -8,6 +8,7 @@
 :root {
     --space-mono: 'Space Mono', monospace;
     --inconsolata: 'Inconsolata', monospace;
+    --montserrat:'Montserrat', sans-serif;
     --gray: #333333;
     --gra2: #4f4f4f;
   }
@@ -77,6 +78,22 @@
 
       
   }
+
+  .pie{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 0;
+    margin-top: 40px;
+    margin-bottom: 24px;
+    font-weight: 500;
+    font-size: 14px;
+    font-style:normal;
+    text-align: center;
+    font-family: var(--montserrat);
+}
 
 
 @media(min-width:1450px){
